@@ -1,0 +1,620 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.see{
+	 /*border: 2px solid red;*/
+	
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+	
+	
+}
+
+@media only screen and (min-width: 1px) {
+    /* For mobile phones: I MADE THIS UP NOT BEST PRACTICE */
+   .DemoReel{
+	width: 100%;
+	
+	min-height: 300px;	
+}
+	.portfolioDemoReel{
+	text-align: center;
+		padding-bottom: 75px;
+	
+	}
+	
+	
+}
+
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+	
+	.DemoReel{
+	width: 100%;
+		
+	min-height: 350px;
+		}
+	
+.portfolioDemoReel{
+	text-align: center;
+	padding-bottom: 75px;
+	}
+	
+	
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+	
+	
+		.DemoReel{
+	width: 100%;
+	min-height: 400px;
+		}
+	
+	.portfolioDemoReel{
+	text-align: center;
+	padding-left: 25%;
+		padding-bottom: 100px;
+	}
+	
+	
+}
+
+
+
+
+/* buttons for pages and flexablity with pages and general CSS*/
+
+.unorderedlistbutton {
+    list-style-type: none;
+	
+    overflow: hidden;
+	margin: 0;
+    padding: 0;
+	/*width: 1000px;*/
+	/*margin: 0px auto;*/
+    
+}
+
+.listitembutton {
+    width: 240px;
+	/*height: 80px;*/
+	/*margin: 30px 120px;*/
+	display: block;
+	line-height: 90px;
+	text-align: center;
+	font-size: 45px;
+	border: 2px solid #4E5058; 
+	border-radius: 40px;
+	font-family: Calibri, sans-serif;
+	float: left;
+	text-decoration: none;
+	color: #4E5058; 
+	
+}
+
+.listitembuttonleft {
+    width: 145px;
+	/*height: 80px;*/
+	/*margin: 30px 120px;*/
+	display: block;
+	/*line-height: 90px;*/
+	text-align: center;
+	font-size: 23px;
+	border: 2px solid #4E5058; 
+	border-radius: 40px;
+	font-family: Calibri, sans-serif;
+	float: left;
+	text-decoration: none;
+	color: #4E5058; 
+	
+}
+
+.listitembuttonright {
+    width: 145px;
+	/*height: 80px;*/
+	/*margin: 30px 120px;*/
+	display: block;
+	/*line-height: 90px;*/
+	text-align: center;
+	font-size: 23px;
+	border: 2px solid #4E5058; 
+	border-radius: 40px;
+	font-family: Calibri, sans-serif;
+	float: right;
+	text-decoration: none;
+	color: #4E5058; 
+	
+}
+
+.listitembuttonCenter {
+    width: 200px;
+	/*height: 80px;*/
+	/*margin: 30px 120px;*/
+	display: block;
+	/*line-height: 90px;*/
+	text-align: center;
+	font-size: 23px;
+	border: 2px solid #4E5058; 
+	border-radius: 40px;
+	font-family: Calibri, sans-serif;
+	margin: 0 auto;
+	text-decoration: none;
+	color: #4E5058;
+	
+}
+
+.VideoDescriptions{
+	font-size: 23px;
+	font-family: Calibri, sans-serif;
+	color: #4E5058;
+}
+
+.buttons li a:hover {
+    background-color: #404040;
+	/*background-color: transparent;*/
+	/*transition: all 0.45s;*/
+	/*opacity: 0.2;*/
+	display: block;
+	border: 0px solid #4E5058;
+	border-radius: 40px;
+	/* opacity: 0.5; */
+	
+}
+.buttons li a:link {
+    color: #4E5058;
+	text-decoration: none;
+	
+	
+}
+.buttons li a:visited {
+    color: #4E5058;
+	text-decoration: none;
+	
+	
+}
+
+.section-mid{
+	padding: 5px 0;
+}
+
+.section-fullscreen{
+	min-height: 100vh;
+}
+
+/*.flex-vertical-center{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}*/
+
+/*---------------------------------home page-----------------------------------------------------------------*/
+.h1home{
+	text-align: center;
+	padding-top: 100px;
+	color: #FFF;
+	font-family: Calibri, sans-serif;
+	font-size: 45px;
+	margin: 0;
+	
+    
+}
+
+.home{
+	background-position: 50% 20% !important;
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(AuthersSeatEdinburghScottland.jpg)
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*------------------------------Portfolio page CSS---------------------------------------------------------------*/
+
+.h1portfoliovideos{
+	color: #4E5058; 
+	font-family: Calibri, sans-serif;
+	font-size: 65px;
+	margin-bottom: 5px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.portfolio{
+		background-position: 50% 50% !important;
+	background-size: cover !important;
+	width: 100%;
+	background:#E5E6E5; 
+	}
+
+	/*#4E5058; */
+
+.portfolioVideo{
+	width: 100%;
+	height: auto;
+	/*min-height: 200px;
+	min-width: 250px;*/
+	min-height: 300px;
+	
+	
+	
+	
+}
+
+/*.DemoReel{
+	width: 100%;
+	display: block;
+	min-height: 150px;
+	
+}*/
+
+
+
+
+/*.portfolioDemoReel{
+	
+	
+	text-align: center;
+	padding-left: 25%
+	
+}*/
+
+.DemoReelBox{
+	
+	
+ 
+}
+
+.portfoliodiv{
+	
+	/*width: 2700px;*/
+	margin: 0px auto;
+	/*padding-top: 490px;*/
+	
+}
+
+.video_space{
+	height: 80px;
+}
+
+
+/*----------------------------this section is most of the list CSS for my resume page---------------------*/
+
+/*------------------Section 1 RESUME+HEADER-----------------------------*/
+.h1resume{
+	margin-bottom: 5px;
+	text-align: center;
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 65px;
+	padding-top: 20px;
+}
+
+
+.resumebackgroundpic{
+		background-position: 50% 10% !important;
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(tennesse_backflip.jpg)
+	
+	}
+
+.myresume1{
+	/*width: 1600px;
+	height: 1100px;*/
+	width: 100%;
+	height: auto;
+	/*text-align: center center;*/
+	/*border: 2px solid red;*/
+	padding: 150px 0 300px 5px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+.h2_1{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 40px;
+	margin: auto auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+}
+
+.pp1{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 27px;
+	margin: auto auto;
+	/*border: 2px solid red;*/
+	padding-top: 20px;
+	
+}
+
+/*------------------Section 2 RESUME-----------------------------*/
+.resumebackgroundpic2{
+		background-position: 50% 50% !important;
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(MSU_sign_wide.jpg);
+	}
+
+.myresume2{
+	width: 100%;
+	height: auto;
+	/*text-align: center center;*/
+	/*border: 2px solid red;*/
+	padding: 0px 5px 100px 5px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+.h2_2{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 44px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+	padding-top: 0px;
+}
+
+.h3_2{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 40px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+	padding-top: 45px;
+}
+
+.pp2{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 33px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+}
+/*------------------Section 3 RESUME-----------------------------*/
+.resumebackgroundpic3{
+		background-position: 50% 60% !important;
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(ChicagoLoopTracks.JPG);
+	}
+
+.myresume3{
+	width: 100%;
+	height: auto;
+	/*text-align: center center;*/
+	/*border: 2px solid red;*/
+	padding: 0px 5px 100px 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+	
+}
+
+.h2_3{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 43px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+	
+}
+.ul_3{
+	list-style-type: disc;
+}
+.li_3{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size:33px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	padding-top: 45px;
+}
+.ul_3_2{
+	list-style-type: circle;
+}
+
+.li_3_3{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size:29px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+}
+
+.pp3{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+
+/*------------------Section 4 RESUME-----------------------------*/
+.resumebackgroundpic4{
+		background-position: 50% 55% !important;
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(Drone_screenshot.JPG);
+	}
+
+.myresume4{
+	width: 100%;
+	height: auto;
+	/*text-align: center center;*/
+	/*border: 2px solid red;*/
+	padding: 0px 5px 100px 5px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.h2_4{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 40px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+	padding-top: 150px;
+}
+
+.li_4{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size:30px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	padding-top: 20px;
+}
+
+.pp4{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+/*------------------Section 5 RESUME-----------------------------*/
+.resumebackgroundpic5{
+		background-position: 50% 60% !important;
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)), url(Galway_Ireland.jpg);
+	}
+
+.myresume5{
+	width: 100%;
+	height: auto;
+	/*text-align: center center;*/
+	/*border: 2px solid red;*/
+	padding: 0px 5px 100px 5px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.h2_5{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 40px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+	padding-top: 35px;
+}
+.li_5{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size:30px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	padding-top: 20px;
+}
+
+.pp5{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+
+/*------------------Section 6 RESUME-----------------------------*/
+.resumebackgroundpic6{
+		background-position: 50% 50% !important;/*vertical with flowers was at 22%*/
+	background-size: cover !important;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url(Holland_Belgium.jpg);
+	}
+
+.myresume6{
+	width: 100%;
+	height: auto;
+	/*text-align: center center;*/
+	/*border: 2px solid red;*/
+	padding: 0px 5px 100px 5px;
+	max-width: 1250px;
+	margin: 0 auto;
+}
+
+.h2_6{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 40px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	text-align: left;
+	padding-top: 35px;
+}
+.li_6{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size:30px;
+	margin: 0 auto;
+	/*border: 2px solid red;*/
+	padding-top: 20px;
+}
+
+.pp6{
+	color: #E5E6E5;  
+	font-family: Calibri, sans-serif;
+	font-size: 20px;
+	margin: 0 auto;
+	border: 2px solid red;
+}
+	
+
+
+	
+
